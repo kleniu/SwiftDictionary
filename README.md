@@ -5,7 +5,9 @@ Swift Playground
 
 ## closures
 
-## trailing closure
+### trailing closures
+
+### escaping closures
 
 ## optionals
 
