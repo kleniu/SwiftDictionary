@@ -3,9 +3,9 @@ Swift Playground
 
 ## value binding
 
-## trailing closure
-
 ## closures
+
+## trailing closure
 
 ## optionals
 
