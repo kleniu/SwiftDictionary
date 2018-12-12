@@ -1,7 +1,15 @@
 # SwiftDictionary
 Swift Playground
 
-## value binding
+## optionals
+
+### unwrapping 
+
+### implicitly unwrapped
+
+### optional chaining
+
+### optional bindings/value binding
 
 ## closures
 
@@ -9,23 +17,13 @@ Swift Playground
 
 ### escaping closures
 
-## optionals
-
 ## default initializers 
 
 ## computed properties
 
-## optional bindings
-
-## unwrapping 
-
-## implicitly unwrapped
-
 ## default values in func args
 
 ## type inference
-
-## optional chaining
 
 ## subscripts
 
