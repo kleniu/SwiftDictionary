@@ -1,7 +1,7 @@
 # SwiftDictionary
 Swift Playground
 
-1. computed properties
+## 1. computed properties
 In addition to stored properties, classes, structures, and enumerations can define _computed properties_, **which do not actually store a value.** Instead, they provide a getter and an optional setter to retrieve and set **other properties**.
 ```
 struct MyStruct {
