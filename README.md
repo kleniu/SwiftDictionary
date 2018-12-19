@@ -22,7 +22,7 @@ print(test.myComputedProperty)     // returns HELLO!
 ```
 
 ### 1.1. Read-Only Computed Properties
-A computed property with a getter but **no setter** is known as a read-only computed property. 
+A computed property with a getter but **no setter** is known as a read-only computed property. You can simplify the declaration of a read-only computed property by removing the get keyword and its braces.
 ```
 struct MyStruct {
     var description: String {
@@ -36,10 +36,10 @@ test.myStoredProperty = "Hello!"
 print(test.description)          // returns Simple struct with single property which has value='Hello!'
 ```
 
-### 1.2. Property Observers
+## 2. Property Observers
 
 
-## 2. optionals
+## 3. Optionals
 
 ### unwrapping 
 
