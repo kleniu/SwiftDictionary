@@ -3,11 +3,12 @@ Swift Playground
 
 ## 1. Computed properties
 In addition to stored properties, classes, structures, and enumerations can define _computed properties_, **which do not actually store a value.** Instead, they provide a getter and an optional setter to retrieve and set **other properties**.
+If a computed property’s **setter does not define a name for the new value to be set, a default name of newValue is used**.
 ```
 struct MyStruct {
     var myComputedProperty: String {
-        set(passedValue) {
-            myPrivateStoredProperty = passedValue.uppercased()
+        set(passedValue) {                                     // if you use: "set {.." instead of "set(passedValue) {.."
+            myPrivateStoredProperty = passedValue.uppercased() // then you can use newValue to retrive value to be set
         }
         get {
             return myPrivateStoredProperty
