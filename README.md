@@ -1,7 +1,7 @@
 # SwiftDictionary
 Swift Playground
 
-## 1. computed properties
+## 1. Computed properties
 In addition to stored properties, classes, structures, and enumerations can define _computed properties_, **which do not actually store a value.** Instead, they provide a getter and an optional setter to retrieve and set **other properties**.
 ```
 struct MyStruct {
@@ -21,7 +21,7 @@ test.myComputedProperty = "Hello!" // setting Hello!
 print(test.myComputedProperty)     // returns HELLO!
 ```
 
-### Read-Only Computed Properties
+### 1.1. Read-Only Computed Properties
 A computed property with a getter but **no setter** is known as a read-only computed property. 
 ```
 struct MyStruct {
@@ -36,10 +36,10 @@ test.myStoredProperty = "Hello!"
 print(test.description)          // returns Simple struct with single property which has value='Hello!'
 ```
 
-### Property Observers
+### 1.2. Property Observers
 
 
-## optionals
+## 2. optionals
 
 ### unwrapping 
 
