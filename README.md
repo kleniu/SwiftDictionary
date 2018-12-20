@@ -52,10 +52,30 @@ test.myStoredProperty = "Hello!"
 print(test.description)          // returns Simple struct with single property which has value='Hello!'
 ```
 
-## 2. Property Observers
+### 1.3 Property Observers
+
+## 2. Enums
+
+### 2.1 Raw values in enums
+Enumeration cases can come prepopulated with default values (***called raw values***). To access raw values use **rawValue** property.
+```
+enum myEnum:Int {
+    case one   = 1
+    case two   = 2
+    case three = 3
+}
+
+var x = myEnum.one.rawValue
+print(x) // will print: 1
+```
 
 
-## 3. Optionals
+
+
+
+
+
+## Optionals
 
 ### unwrapping 
 
@@ -81,6 +101,6 @@ print(test.description)          // returns Simple struct with single property w
 
 ## subscripts
 
-## raw values in enums
+
 
 ## associated values in enums
