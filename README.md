@@ -2,10 +2,19 @@
 Swift Playground
 
 ## 1. Properties
+Properties hold values within a particular class, structure, or (only for computed properties) enumeration.
+
 ### 1.1 Stored properties
-Properties hold values with a particular class, structure, or (only for computed properties) enumeration.
+In its simplest form, a stored property is a constant or variable that is stored as part of an instance **of a class or structure** _not! enum_. 
 
 #### 1.1.1 Lazy Stored Properties
+A lazy stored property is a property whose initial value is not calculated until the first time it is used. Lazy properties are useful when the initial value for a property is dependent on outside factors whose values are not known until after an instance’s initialization is complete.
+```
+class myClass {
+    lazy var myData = DataSourceFromNet()
+    // the myClass class would provide its own methods here
+}
+```
 
 ### 1.2 Computed properties
 In addition to stored properties, classes, structures, and enumerations can define _computed properties_, **which do not actually store a value.** Instead, they provide a getter and an optional setter to retrieve and set **other properties**.
