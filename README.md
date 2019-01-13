@@ -89,7 +89,7 @@ print(x) // will print: 1
 
 local variables in the closures
 ```
-private var foo = { [week myWeekLocalVar = "test string"]
+private var foo = { [week myWeekLocalVar = "test string"] in
 	// use myWeekLocalVar here
 }
 ```
