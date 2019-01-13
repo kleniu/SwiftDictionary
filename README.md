@@ -87,6 +87,13 @@ print(x) // will print: 1
 
 ## closures
 
+local variables in the closures
+```
+private var foo = { [week myWeekLocalVar = "test string"]
+	// use myWeekLocalVar here
+}
+```
+
 ### trailing closures
 
 ### escaping closures
